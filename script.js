@@ -11,3 +11,8 @@ function showSlides() {
   slides[index - 1].style.display = "block";
   setTimeout(showSlides, 2000); 
 }
+
+
+function changepage(){
+ window.location.href = "contact.html";
+}
