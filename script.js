@@ -16,3 +16,8 @@ function showSlides() {
 function changepage(){
  window.location.href = "contact.html";
 }
+
+function changepage2(){
+ window.location.href = "services.html";
+}
+
