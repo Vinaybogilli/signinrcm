@@ -866,6 +866,13 @@ h1{
       margin-top: 20px;
     }
 
+    #signin-india-offices{
+      display: flex;
+      flex-direction: row;
+      text-wrap: wrap;
+      gap: 10px 10px;
+    }
+
     /* Email links */
     .signin-contact-email {
       color: #2a5d9f;
