@@ -570,7 +570,7 @@ h1{
 .dropdown-sub {
   display: none;
   position: absolute;
-  background-color:grey;
+  background-color:gainsboro;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -878,5 +878,251 @@ h1{
     @media (max-width: 768px) {
       #signin-contact-wrapper {
         padding: 15px;
+      }
+    }
+
+
+    /*---------Learn Page ---------------*/
+    /* Reset some basic styles */
+#wrapperlearn{
+  
+  font-family: 'Poppins',sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Section wrapper */
+.topics {
+  margin: 100px auto 40px; /* top: 100px, left/right auto, bottom: 40px */
+  max-width: 1100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+/* Individual topic card */
+.topic {
+  background-color: #fff;
+  border-left: 5px solid #2b6cb0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.topic:hover {
+  transform: translateY(-4px);
+}
+
+/* Headings */
+.topic h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: #2b6cb0;
+}
+
+/* Lists inside topics */
+.topic ul,
+.topic ol {
+  padding-left: 20px;
+}
+
+.topic ul li,
+.topic ol li {
+  margin-bottom: 8px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2b6cb0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1a4f8f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .topics {
+    padding: 10px;
+  }
+
+  .topic {
+    padding: 20px;
+  }
+
+  .topic h2 {
+    font-size: 1.4rem;
+  }
+}
+
+
+/*----------explorepage------------------*/
+
+.explore-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+ margin: 100px auto 40px; 
+}
+
+.explore-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.explore-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.explore-card h3 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.explore-card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+
+/*----blog page---------------*/
+
+.blog-container {
+  max-width: 1200px;
+  margin: 100px auto 40px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+   font-family: 'Poppins',sans-serif;
+  line-height: 1.6;
+  
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-content h3 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.blog-content a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.blog-content a:hover {
+  color: #0066cc;
+}
+
+
+/*---------------about--------------------*/
+ .container {
+      max-width: 1100px;
+      margin: 100px auto 40px;
+      padding: 40px 20px;
+      font-family: 'Poppins',sans-serif;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #0055a5;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .stat {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 10px;
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+    }
+
+    .values, .solutions {
+      margin-top: 40px;
+    }
+
+    .value-item, .solution-item {
+      background: #ffffff;
+      padding: 20px;
+      margin: 15px 0;
+      border-left: 5px solid #0055a5;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .cta {
+      background: #0055a5;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+
+    .cta a {
+      color: #fff;
+      background: #0078d4;
+      padding: 12px 24px;
+      display: inline-block;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .stats {
+        flex-direction: column;
+        align-items: center;
       }
     }

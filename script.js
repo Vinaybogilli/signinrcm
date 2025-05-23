@@ -21,3 +21,7 @@ function changepage2(){
  window.location.href = "services.html";
 }
 
+function changepage3(){
+ window.location.href = "contact.html";
+}
+
