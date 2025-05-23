@@ -285,11 +285,11 @@ h1{
 
 /* Background images */
 .doctor-img {
-  background-image: url('doctorimage.jpg');
+  background-image: url('images/servicesimages/doctorimage.jpg');
 }
 
 .dental-img {
-  background-image: url('dentalimage.jpg');
+  background-image: url('images/servicesimages/dentalimage.jpg');
 }
 
 
