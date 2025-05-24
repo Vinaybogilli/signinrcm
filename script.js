@@ -25,3 +25,7 @@ function changepage3(){
  window.location.href = "contact.html";
 }
 
+function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }

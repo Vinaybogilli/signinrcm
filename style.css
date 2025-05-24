@@ -4,89 +4,7 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 10px 20px;
-  font-family: 'Poppins', sans-serif;
-}
 
-
-header {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; 
-    background-color: white;
-}
-
-/* Logo styling */
-#header-logo {
-  height: 100px;
-  width: 300px;
-}
-
-/* Nav links styling */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  position: relative;
-}
-
-.nav-links li {
-  position: relative;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  padding: 10px 15px;
-  transition: background-color 0.3s;
-}
-
-.nav-links a:hover {
-  background-color: orangered;
-  border-radius: 4px;
-  color: rgba(6, 89, 171, 0.449);
-}
-
-/* Dropdown menu */
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color:gainsboro;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  list-style: none;
-  border-radius: 4px;
-  min-width: 180px;
-  z-index: 100;
-}
-
-.dropdown li{
-  padding:10px 15px;
-}
-
-.dropdown li a {
-  
-  display: block;
-  white-space: nowrap;
-}
-
-.dropdown li a:hover {
-  background-color: orangered;
-  color: rgba(6, 89, 171, 0.449);
-}
-
-/* Show dropdown on hover */
-.dropdown-parent:hover .dropdown {
-  display: block;
-}
 
 .slideshow{
   display: flex;
@@ -119,6 +37,8 @@ h1{
 }
 
 #cust-feed p {
+  display:inline-flex;
+  flex-direction: row;
   height:auto;
   width: 20vw;
   box-shadow: 0px 0px 2px hsla(0, 11%, 87%, 0.975);
@@ -348,8 +268,9 @@ h1{
 
 #ourservices a {
   display: flex;
+
   border: 1px solid black;
-  width:20vw;
+  width: 300px;
   align-items: center;
   gap: 10px;
   text-decoration: none;
@@ -1140,4 +1061,35 @@ h1{
     }
 
 
+
+
+
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 479px) {
+ 
+  
+}
+
+/* Small devices (phones, 480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  
+}
+
+/* Large devices (small laptops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/* Extra large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  
+}
    
