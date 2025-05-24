@@ -1065,14 +1065,85 @@ h1{
 
 
 
-/* Extra small devices (phones, less than 480px) */
+   /* Extra small devices (phones, less than 480px) */
 @media (max-width: 479px) {
+
+   .strengths-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;       
+  gap: 40px;
+  padding: 40px;
+  background-color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.dental-img{
+    background-size: cover;
+      background-position: center;
+}
+
+.doctor-img{
+    background-size: cover;
+      background-position: center;
+}
+
+*{
+  font-size: small;
+}
+
+#ourservices{
+  display: flex;
+  flex-direction: column;
+}
+
+#cust-feed p{
+  display: flex;
+  flex-direction: column;
+}
  
   
 }
 
 /* Small devices (phones, 480px to 767px) */
 @media (min-width: 480px) and (max-width: 767px) {
+
+
+  .strengths-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;       
+  gap: 40px;
+  padding: 40px;
+  background-color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.dental-img{
+    background-size: cover;
+      background-position: center;
+}
+
+.doctor-img{
+    background-size: cover;
+      background-position: center;
+}
+
+*{
+  font-size: small;
+}
+
+#ourservices{
+  display: flex;
+  flex-direction: column;
+}
+
+#cust-feed p{
+  display: flex;
+  flex-direction: column;
+}
   
 }
 
